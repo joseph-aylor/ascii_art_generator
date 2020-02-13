@@ -1,2 +1,2 @@
-from . import ascii_generator
-from . import ascii_image
+from .ascii_generator import AsciiGenerator
+from .ascii_image import AsciiImage
