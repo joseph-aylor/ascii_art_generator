@@ -16,6 +16,7 @@ class AsciiGenerator:
         gray_image = AsciiGenerator._scale_image(gray_image, max_dimension)
 
         ascii_image = []
+        # EWWW embedded for loops :(
         for y in range(gray_image.height):
             ascii_image.append([])
             for x in range(gray_image.width):
