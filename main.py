@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 import ascii_generator
-import sys
+import argparse
 
 from PIL import Image
 from os import get_terminal_size
-
-import argparse
 
 if __name__ == '__main__':
     # Full ascii pallet is below, but it doesn't look great
